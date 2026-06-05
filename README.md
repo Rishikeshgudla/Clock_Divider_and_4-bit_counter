@@ -4,7 +4,7 @@ This project implements a **Clock Divider** and a **4-Bit Binary Counter** using
 
 ---
 
-## Project Overview
+## ⭐ Project Overview :
 
 The design consists of two modules:
 
@@ -28,16 +28,19 @@ The Counter module increments on every rising edge of the divided clock signal g
 
 ---
 
-## Design Flow
+## Design Flow:
 
-<img width="1536" height="1024" alt="Clock divider and counter schematic-1" src="https://github.com/user-attachments/assets/2e932986-c484-4c8e-994c-b54f00abf5d4" />
+<h4 align="center">Schematic of the Clock divider and 4-bit counter:</h4>
+<p align="center">
+<img width="768" height="512" alt="Clock divider and counter schematic-1" src="https://github.com/user-attachments/assets/2e932986-c484-4c8e-994c-b54f00abf5d4" />
+</p>
 
-<img width="941" height="1672" alt="image" src="https://github.com/user-attachments/assets/4f7f6bab-4037-47ae-af26-b9c972d119ea" />
+<h4 align="center">Detailed Flow Chart:</h4>
+<p align="center">
+<img width="470.5" height="836" alt="image" src="https://github.com/user-attachments/assets/4f7f6bab-4037-47ae-af26-b9c972d119ea" />
+</p>
 
-<img width="1563" height="418" alt="Screenshot 2026-06-05 214425" src="https://github.com/user-attachments/assets/f8857257-2ee8-4ac5-994e-e681efb6ea6b" />
-
-
-## Working Principle
+## Working Principle:
 
 ### Clock Divider Operation
 1. Wait for the rising edge of the input clock.
@@ -54,7 +57,7 @@ The Counter module increments on every rising edge of the divided clock signal g
 
 ---
 
-## Simulation
+## Simulation and Output:
 
 The design can be simulated in **Xilinx Vivado** using the provided testbench.
 
@@ -68,8 +71,17 @@ The design can be simulated in **Xilinx Vivado** using the provided testbench.
 - The Clock Divider generates a slower clock from the input clock.
 - The Counter increments on every rising edge of the divided clock.
 - Reset initializes both modules to their default states.
+
+<h4 align="center">Behavioral Simulation:</h4>
   
-<img width="1019" height="488" alt="Screenshot 2026-06-05 214312" src="https://github.com/user-attachments/assets/20e49912-10a8-44b9-b7b1-7739a1bc7716" />
+<p align="center">
+<img width="750" height="375" alt="Screenshot 2026-06-05 214312" src="https://github.com/user-attachments/assets/20e49912-10a8-44b9-b7b1-7739a1bc7716" />
+</p>
+
+<h4 align="center">RTL Analysis of the Clock divider and 4-bit counter:</h4>
+<p align="center">
+<img width="781.5" height="209" alt="Screenshot 2026-06-05 214425" src="https://github.com/user-attachments/assets/f8857257-2ee8-4ac5-994e-e681efb6ea6b" />
+</p>
 
 ---
 
@@ -88,8 +100,6 @@ The design can be simulated in **Xilinx Vivado** using the provided testbench.
 
 - VHDL
 - Xilinx Vivado
-- Behavioral Simulation
-- RTL Analysis
 - FPGA Design Methodology
 
 ---
@@ -97,11 +107,11 @@ The design can be simulated in **Xilinx Vivado** using the provided testbench.
 ## Repository Contents
 
 ```text
+├── README.md
 ├── clock_divider.vhd
 ├── counter.vhd
 ├── top.vhd
-├── tb_top.vhd
-└── README.md
+└── tb_top.vhd
 ```
 
 ---
@@ -112,6 +122,4 @@ Gudla Rishikesh
 
 ---
 
-## License
-
-This project is provided for educational and learning purposes. Feel free to modify, improve, and use it in your own FPGA and VHDL projects.
+This project is provided for educational and learning purposes📚. Feel free to modify, improve, and use it in your own FPGA and VHDL projects.
