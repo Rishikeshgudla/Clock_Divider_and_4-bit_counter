@@ -30,9 +30,9 @@ The Counter module increments on every rising edge of the divided clock signal g
 
 ## Design Flow
 
-![alt Schematic diagram](<Clock divider and counter schematic-1.png>)
-![alt Detailed Flow Chart](image.png)
-![alt RTL Analysis](<Screenshot 2026-06-05 214425.png>)
+![Schematic diagram](<Clock divider and counter schematic-1.png>)
+![Detailed Flow Chart](image.png)
+![RTL Analysis](<Screenshot 2026-06-05 214425.png>)
 
 ## Working Principle
 
