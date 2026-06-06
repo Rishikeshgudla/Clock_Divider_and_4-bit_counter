@@ -28,7 +28,7 @@ The Counter module increments on every rising edge of the divided clock signal g
 
 ---
 
-## Design Flow:
+## 📔Design Flow:
 
 <h4 align="center">Schematic of the Clock divider and 4-bit counter:</h4>
 <p align="center">
