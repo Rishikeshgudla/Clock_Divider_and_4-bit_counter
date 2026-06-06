@@ -4,7 +4,7 @@ This project implements a **Clock Divider** and a **4-Bit Binary Counter** using
 
 ---
 
-## ⭐ Project Overview :
+## 🚀 Project Overview :
 
 The design consists of two modules:
 
@@ -28,7 +28,7 @@ The Counter module increments on every rising edge of the divided clock signal g
 
 ---
 
-## 📔Design Flow:
+## 📔 Design Flow:
 
 <h4 align="center">Schematic of the Clock divider and 4-bit counter:</h4>
 <p align="center">
@@ -40,7 +40,7 @@ The Counter module increments on every rising edge of the divided clock signal g
 <img width="470.5" height="836" alt="image" src="https://github.com/user-attachments/assets/4f7f6bab-4037-47ae-af26-b9c972d119ea" />
 </p>
 
-## Working Principle:
+## ⭐ Working Principle:
 
 ### Clock Divider Operation
 1. Wait for the rising edge of the input clock.
@@ -57,7 +57,7 @@ The Counter module increments on every rising edge of the divided clock signal g
 
 ---
 
-## Simulation and Output:
+## 📡 Simulation and Output:
 
 The design can be simulated in **Xilinx Vivado** using the provided testbench.
 
@@ -96,7 +96,7 @@ The design can be simulated in **Xilinx Vivado** using the provided testbench.
 
 ---
 
-## Tools Used
+## ⚒️ Tools Used
 
 - VHDL
 - Xilinx Vivado
